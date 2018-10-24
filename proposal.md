@@ -48,6 +48,7 @@ The output will be some sort of notification. The email will be a base string va
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
+The user's email address, the item's due date, the name of the item, the priority of the item (how urgent the item should be completed) and the course that the item is for, as well as a boolean variable that marks whether the item has been completed or not.
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
