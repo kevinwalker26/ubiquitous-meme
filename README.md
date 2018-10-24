@@ -9,10 +9,11 @@
    * What are the GitHub usernames and names of your team members?
        * GitHub username 1: kwalker26      name 1: Kevin Walker
        * GitHub username 2: mohamedwane1   name 2: Mohamed Wane
-       * GitHub username 3:       name 3:
+       * GitHub username 3: mkesler      name 3: Matthew Kesler
        * GitHub username 4:       name 4:
        * GitHub username 5:       name 5:
    * When did you complete this exercise? 
+       * Wednesday Night (10/24)
    * How long did it take your team to complete this exercise? 
 
 ## Table of Contents
