@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# X-Team 112 Badger Planner
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -29,12 +29,15 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
-Briefly describe a problem that your team would like to solve.  
-Describe at a high level a program that could solve that problem.
+It can be difficult to keep track of all the things you have going on during the semester. It is common for students to lose track of assignments, exams, and projects and even more common to not start them early enough. What if there was a way for you to insert assignments, exams, and projects into a planner that would automatically start notifying you prior to the due date so you don't forget about it or have to cram?
+
+## Proposed Solution
+
+A program that could solve this problem would store upcoming assignments, exams, and projects and notify the user as the due dates approach. It would change notification beginning times based on the category of the item. These notifications would persist until the due date has passed or the item has been marked as completed. 
 
 ## Questions to answer for Exercise #2
 
-1. Name: Give your project proposal a name (and edit the top line of this file)
+1. Name: Badger Planner
 
 
 
