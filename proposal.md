@@ -41,8 +41,9 @@ A program that could solve this problem would store upcoming assignments, exams,
 
 
 
-2. Output: Describe the output your program will produce.  Include and example format of the output produced.
+2. Output: Describe the output your program will produce. Include and example format of the output produced.
 
+The output will be some sort of notification. The email will be a base string value that is concatenated with the inputs to give an alert. It may have send multiple emails to the end user at different times. Another output would to be display the current outputs of the assingments.
 
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
@@ -51,6 +52,7 @@ A program that could solve this problem would store upcoming assignments, exams,
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
+The user interface will use a button to add fields to an object to be inserted the assignment planner. The button will open a textbox and that will allow a user to describe the field. The button will allow multiple fields to be added. It will incllude a drag button for inputing the desired urgency of the assignment. It could include a month selection to get the date of the assigment. 
 
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
