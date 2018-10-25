@@ -68,7 +68,8 @@ Name each interface or class and briefly describe its function or purpose.
     * Fields:
         * int dueDate
         * String name
-        * int class
+        * int priority
+        * String course
         * boolean completed
 * PlanDisplay . a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes
 
