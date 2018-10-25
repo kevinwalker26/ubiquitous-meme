@@ -55,6 +55,8 @@ The user's email address, the item's due date, the name of the item, the priorit
 
 The user interface will use a button to add fields to an object to be inserted the assignment planner. The button will open a textbox and that will allow a user to describe the field. The button will allow multiple fields to be added. It will incllude a drag button for inputing the desired urgency of the assignment. It could include a month selection to get the date of the assigment. 
 
+![Sample User Interface](https://drive.google.com/open?id=1hKOlTOXYx_IMB-r_j_UAClqE0BM5muOl)
+
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
