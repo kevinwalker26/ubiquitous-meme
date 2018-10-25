@@ -62,15 +62,15 @@ For our Bader Planner class, one field would be to the data structure of some cu
 
 Name each interface or class and briefly describe its function or purpose.
 
-*PlanningQueueADT . describe the functions and rules for the queue
-*PlanningQueue . the queuue that holds the different objects and both the uncompleted and completed assignments ordered by priority
-*Assignment . a class for the custom assigment object
-**Fields:
-**int dueDate
-**String name
-**int class
-*boolean completed
-*PlanDisplay . a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes
+* PlanningQueueADT . describe the functions and rules for the queue
+* PlanningQueue . the queuue that holds the different objects and both the uncompleted and completed assignments ordered by priority
+* Assignment . a class for the custom assigment object
+    * Fields:
+        * int dueDate
+        * String name
+        * int class
+        * boolean completed
+* PlanDisplay . a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes
 
 ## Edit and Submit this file and any figures referenced by this document.
 
