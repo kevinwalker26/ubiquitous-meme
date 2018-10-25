@@ -43,7 +43,7 @@ A program that could solve this problem would store upcoming assignments, exams,
 
 2. Output: Describe the output your program will produce. Include and example format of the output produced.
 
-The output will be some sort of notification. The email will be a base string value that is concatenated with the inputs to give an alert. It may have send multiple emails to the end user at different times. Another output would to be display the current outputs of the assingments.
+The output will be some sort of notification. The email will be a base string value that is concatenated with the inputs to give an alert. It may have to send multiple notifications at different times. Another output would to be display the current outputs of the assingments.
 
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
@@ -58,10 +58,19 @@ The user interface will use a button to add fields to an object to be inserted t
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
-
+For our Bader Planner class, one field would be to the data structure of some custom type of priority queueue, a PlanningQueue. The priority would be determined by the urgency input that the user enters. The priority queueue would hold custom objects for the assignments. This assignment object would have a due date field, name, class, completed, and an urgency. There would also be a field for the display object that would hold different utitlity display objects such as the buttons, text boxes, check boxes.
 
 Name each interface or class and briefly describe its function or purpose.
 
+PlanningQueueADT - describe the functions and rules for the queue
+PlanningQueue - the queuue that holds the different objects and both the uncompleted and completed assignments ordered by priority
+Assignment - a class for the custom assigment object
+ Fields:
+  int dueDate
+  String name
+  int class
+  boolean completed
+PlanDisplay - a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes
 
 ## Edit and Submit this file and any figures referenced by this document.
 
