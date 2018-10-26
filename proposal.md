@@ -52,7 +52,7 @@ The user's email address, the item's due date, the name of the item, the priorit
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
-
+When user enter the interface, on the left of the graph is the current assignments that users need to complete. The interface will send notifications to users according to the priority of assignments. On the right fo the grapn are a list of completed assignment which records completed assignments. When the assignments are completed, the interface will move the assignment from left to right. The bottom line are operations to create a new assignment. 
 
 [Sample User Interface](https://drive.google.com/open?id=1hKOlTOXYx_IMB-r_j_UAClqE0BM5muOl)
 
