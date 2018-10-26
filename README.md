@@ -10,7 +10,7 @@
        * GitHub username 1: kwalker26      name 1: Kevin Walker
        * GitHub username 2: mohamedwane1   name 2: Mohamed Wane
        * GitHub username 3: mkesler      name 3: Matthew Kesler
-       * GitHub username 4:       name 4:
+       * GitHub username 4: zezhong5       name4: zezhong fan
    * When did you complete this exercise? 
        * Wednesday Night (10/24)
    * How long did it take your team to complete this exercise? 
