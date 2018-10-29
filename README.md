@@ -14,6 +14,7 @@
    * When did you complete this exercise? 
        * Wednesday Night (10/24)
    * How long did it take your team to complete this exercise? 
+       * Around 2 hours
 
 ## Table of Contents
 
