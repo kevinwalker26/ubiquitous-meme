@@ -40,20 +40,21 @@ A program that could solve this problem would store upcoming assignments, exams,
 1. Name: Badger Planner
 
 
-
 2. Output: Describe the output your program will produce. Include and example format of the output produced.
 
-The output will be some sort of notification. The email will be a base string value that is concatenated with the inputs to give an alert. It may have to send multiple notifications at different times. Another output would to be display the current outputs of the assingments.
+The output will be some sort of notification. The email will be a base string value that is concatenated with the inputs to give an alert. It may have to send multiple notifications at different times.  Another form of output will be within the app which is described below. 
 
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
-The item's due date, the name of the item, the priority of the item (how urgent the item should be completed) and the course that the item is for, as well as a boolean variable that marks whether the item has been completed or not. From the user interface it will be inserted into the text boxes and be accepted as multiple separate strings following this format  \n`<(name) (mm dd yy) (course) priority>`
+The item's due date, the name of the item, the priority of the item (how urgent the item should be completed) and the course that the item is for, as well as a boolean variable that marks whether the item has been completed or not. From the user interface it will be inserted into the text boxes and be accepted as multiple separate strings following this format  
+`<(name) (mm dd yy) (course) priority>`  
+This has the first three items as type string and then priority will be an integer.
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
-When user enter the interface, on the left of the graph is the current assignments that users need to complete. The interface will send notifications to users according to the priority of assignments. On the right fo the grapn are a list of completed assignment which records completed assignments. When the assignments are completed, the interface will move the assignment from left to right. The bottom line are operations to create a new assignment. 
+When user enter the interface, on the left of the graph is the current assignments that users need to complete. The interface will send notifications to users according to the priority of assignments. On the right there is a list of completed assignment which records completed assignments. When the assignments are completed, the interface will move the assignment from left to right. The bottom line are operations to create a new assignment. 
 
 [Sample User Interface](https://drive.google.com/open?id=1hKOlTOXYx_IMB-r_j_UAClqE0BM5muOl)
 
@@ -65,15 +66,18 @@ For our Bader Planner class, one field would be to the data structure of some cu
 Name each interface or class and briefly describe its function or purpose.
 
 * PlanningQueueADT . describe the functions and rules for the queue
-* PlanningQueue . the queuue that holds the different objects and both the uncompleted and completed assignments ordered by priority
+* PlanningQueue . the queue that holds the different objects and both the uncompleted and completed assignments ordered by priority
 * Assignment . a class for the custom assigment object
     * Fields:
-        * int dueDate
+        * int dueDay
+        * int dueMonth
+        * int dueYear
         * String name
         * int priority
         * String course
         * boolean completed
-* PlanDisplay . a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes
+* PlanDisplay . a class for the diplay object that uses the multiple display utilities such as the buttons, text boxes, and check boxes   
+Our code will be white box tested using JUnit. We will use the coverage tool within Eclipse to reach this white box testing goal. Key items to test will be checking an item for completion, what is displayed when there are no assignments and error handling when the inputs for a new assignment is not done correctly.
 
 ## Edit and Submit this file and any figures referenced by this document.
 
